@@ -58,16 +58,29 @@ async function loadData() {
         img.src = primary;
         qr.appendChild(img);
       }
+      const details = document.createElement('div');
+      details.className = 'hero-details';
       const title = document.createElement('h1');
       title.className = 'title';
       title.textContent = card.avista;
       const subtitle = document.createElement('h2');
       subtitle.className = 'subtitle';
       subtitle.textContent = card.subtitle;
+      details.appendChild(title);
+      details.appendChild(subtitle);
+      details.classList.add('hidden');
+      const btnMostrar = document.createElement('button');
+      btnMostrar.className = 'btn btn-show';
+      btnMostrar.textContent = 'Mostrar';
+      btnMostrar.setAttribute('aria-expanded', 'false');
+      btnMostrar.addEventListener('click', () => {
+        const hiddenNow = details.classList.toggle('hidden');
+        btnMostrar.setAttribute('aria-expanded', String(!hiddenNow));
+      });
       hero.appendChild(head);
       hero.appendChild(qr);
-      hero.appendChild(title);
-      hero.appendChild(subtitle);
+      hero.appendChild(btnMostrar);
+      hero.appendChild(details);
       return hero;
     }
 
