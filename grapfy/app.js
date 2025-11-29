@@ -144,7 +144,6 @@ async function loadData() {
         wrap.appendChild(details);
         gridCollapsed.appendChild(wrap);
       });
-    // removed generic button handler to avoid interfering with QR and modal actions
       const buttonsQR = document.querySelectorAll('.btn[data-card][data-key][data-action="qr"]');
       buttonsQR.forEach(btn => {
         const cid = btn.getAttribute('data-card');
@@ -155,11 +154,8 @@ async function loadData() {
         if (!url) { btn.disabled = true; return; }
         btn.addEventListener('click', () => showQR(url));
       });
-
-      // open links are anchors with href; no JS binding needed
     }
 
-    // ensure modal closes when changing category/page
     let currentCategory = 'alianca';
     document.querySelectorAll('.nav-link-cat').forEach(x => x.classList.toggle('active', x.dataset.cat === currentCategory));
     function setPage(name) {

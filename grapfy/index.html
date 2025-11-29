@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tabela de Valores</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="top-header">Ofertas</header>
+  <nav class="nav">
+    <a href="#" class="nav-link nav-link-cat active" data-cat="legado">Legado</a>
+    <a href="#" class="nav-link nav-link-cat" data-cat="alianca">Aliança</a>
+  </nav>
+  <nav class="nav">
+    <a href="#" class="nav-link nav-link-page active" data-page="full">Completo</a>
+    <a href="#" class="nav-link nav-link-page" data-page="collapsed">Retraído</a>
+  </nav>
+
+  <main class="container">
+    <section id="page-full">
+      <section id="grid" class="grid"></section>
+    </section>
+    <section id="page-collapsed" class="hidden">
+      <section id="grid-collapsed" class="grid"></section>
+    </section>
+  </main>
+
+  <div id="qr-modal" class="modal hidden">
+    <div class="modal-content">
+      <div class="modal-header">QR Code</div>
+      <div class="modal-body">
+        <img id="qr-img" alt="QR" />
+      </div>
+      <div class="modal-actions">
+        <a id="qr-open-link" class="btn" target="_blank" rel="noopener noreferrer">Abrir link</a>
+        <button id="qr-close" class="btn">Fechar</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
