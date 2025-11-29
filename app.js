@@ -86,10 +86,17 @@ async function loadData() {
         line1.className = 'installment';
         line1.textContent = installmentText;
         text.appendChild(line1);
+        let line2;
         if (totalRaw) {
-          const line2 = document.createElement('div');
-          line2.className = 'total';
-          line2.textContent = 'Total Maquininha: ' + totalRaw;
+          line2 = document.createElement('div');
+          line2.className = 'total hidden';
+          const label = document.createElement('span');
+          label.textContent = 'Total Maquininha: ';
+          const amount = document.createElement('span');
+          amount.className = 'amount';
+          amount.textContent = totalRaw;
+          line2.appendChild(label);
+          line2.appendChild(amount);
           text.appendChild(line2);
         }
         const aOpen = document.createElement('a');
@@ -113,6 +120,17 @@ async function loadData() {
         btnQR.setAttribute('data-key', it.key);
         btnQR.setAttribute('data-action', 'qr');
         li.appendChild(text);
+        if (line2) {
+          const btnTotal = document.createElement('button');
+          btnTotal.className = 'btn';
+          btnTotal.textContent = 'Maquininha';
+          btnTotal.setAttribute('aria-expanded', 'false');
+          btnTotal.addEventListener('click', () => {
+            const hiddenNow = line2.classList.toggle('hidden');
+            btnTotal.setAttribute('aria-expanded', String(!hiddenNow));
+          });
+          li.appendChild(btnTotal);
+        }
         li.appendChild(aOpen);
         li.appendChild(btnQR);
         ul.appendChild(li);

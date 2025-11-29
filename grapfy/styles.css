@@ -68,6 +68,7 @@ body {
 .price-text { flex: 1; }
 .price-text .installment { font-weight: 600; }
 .price-text .total { color: var(--muted); font-size: 14px; }
+.price-text .total .amount { font-weight: 700; font-size: 18px; }
 
 .btn {
   appearance: none;
@@ -103,6 +104,7 @@ body {
   .qr { width: 180px; height: 180px; }
   .title { font-size: 24px; }
   .subtitle { font-size: 18px; }
+  .price-text .total .amount { font-size: 17px; }
 }
 
 @media (max-width: 640px) {
@@ -115,4 +117,5 @@ body {
   .price-item { align-items: flex-start; gap: 8px; }
   .btn { padding: 10px 12px; }
   .nav { flex-wrap: wrap; }
+  .price-text .total .amount { font-size: 16px; }
 }
