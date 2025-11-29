@@ -22,7 +22,7 @@
   {
     "id": "c11",
     "header": "[Aliança] [12 Meses] - 70K [50%]",
-    "avista": "À vista: R$ 35.000,00",
+    "avista": "SINAL: R$ 35.000,00",
     "subtitle": "Ou em até 12x de R$ 3.619,81",
     "items": [
       {"key":"1x","label":"1x R$ 35.000,00 = R$ 35.000,00"},
@@ -42,7 +42,7 @@
   {
     "id": "c2",
     "header": "[Legado] [12 Meses] -120k [70%]",
-    "avista": "À vista: R$ 84.000,00",
+    "avista": "SINAL: R$ 84.000,00",
     "subtitle": "Ou em até 12x de R$ 8.687,54",
     "items": [
       {"key":"1x","label":"1x R$ 84.000,00 = R$ 84.000,00"},
@@ -62,7 +62,7 @@
   {
     "id": "c3",
     "header": "[Legado] [12 Meses] -120k [50%]",
-    "avista": "À vista: R$ 60.000,00",
+    "avista": "SINAL: R$ 60.000,00",
     "subtitle": "Ou em até 12x de R$ 6.205,38",
     "items": [
       {"key":"1x","label":"1x R$ 60.000,00 = R$ 60.000,00"},
@@ -82,7 +82,7 @@
   {
     "id": "c4",
     "header": "[Legado] [12 Meses] -120k [30%]",
-    "avista": "À vista: R$ 36.000,00",
+    "avista": "SINAL: R$ 36.000,00",
     "subtitle": "Ou em até 12x de R$ 3.723,23",
     "items": [
       {"key":"1x","label":"1x R$ 36.000,00 = R$ 36.000,00"},
@@ -122,7 +122,7 @@
   {
     "id": "c6",
     "header": "[Aliança] [4 Meses] - 35K [70%]",
-    "avista": "À vista: R$ 24.500,00",
+    "avista": "SINAL: R$ 24.500,00",
     "subtitle": "Ou em até 12x de R$ 2.533,86",
     "items": [
       {"key":"1x","label":"1x R$ 24.500,00 = R$ 24.500,00"},
@@ -142,7 +142,7 @@
   {
     "id": "c7",
     "header": "[Aliança] [4 Meses] - 35K [50%]",
-    "avista": "À vista: R$ 17.500,00",
+    "avista": "SINAL: R$ 17.500,00",
     "subtitle": "Ou em até 12x de R$ 1.809,90",
     "items": [
       {"key":"1x","label":"1x R$ 17.500,00 = R$ 17.500,00"},
@@ -162,7 +162,7 @@
   {
     "id": "c8",
     "header": "[Aliança] [4 Meses] - 35K [30%]",
-    "avista": "À vista: R$ 10.500,00",
+    "avista": "SINAL: R$ 10.500,00",
     "subtitle": "Ou em até 12x de R$ 1.085,94",
     "items": [
       {"key":"1x","label":"1x R$ 10.500,00 = R$ 10.500,00"},
@@ -182,7 +182,7 @@
   {
     "id": "c9",
     "header": "[Aliança] [12 Meses] - 70K [100%]",
-    "avista": "À vista: R$ 70.000,00",
+    "avista": "SINAL: R$ 70.000,00",
     "subtitle": "Ou em até 12x de R$ 7.239,61",
     "items": [
       {"key":"1x","label":"1x R$ 70.000,00 = R$ 70.000,00"},
@@ -202,7 +202,7 @@
   {
     "id": "c10",
     "header": "[Aliança] [12 Meses] - 70K [70%]",
-    "avista": "À vista: R$ 49.000,00",
+    "avista": "SINAL: R$ 49.000,00",
     "subtitle": "Ou em até 12x de R$ 5.067,73",
     "items": [
       {"key":"1x","label":"1x R$ 49.000,00 = R$ 49.000,00"},
@@ -222,7 +222,7 @@
   {
     "id": "c12",
     "header": "[Aliança] [12 Meses] - 70K [30%]",
-    "avista": "À vista: R$ 21.000,00",
+    "avista": "SINAL: R$ 21.000,00",
     "subtitle": "Ou em até 12x de R$ 2.171,88",
     "items": [
       {"key":"1x","label":"1x R$ 21.000,00 = R$ 21.000,00"},

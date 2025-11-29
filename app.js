@@ -39,6 +39,15 @@ async function loadData() {
       head.textContent = card.header;
       const qr = document.createElement('div');
       qr.className = 'qr';
+      const urlHero = (links[card.id] && (links[card.id]['1x'] || links[card.id]['avista'])) || null;
+      if (urlHero) {
+        const img = document.createElement('img');
+        const primary = 'https://api.qrserver.com/v1/create-qr-code/?size=220x220&data=' + encodeURIComponent(urlHero);
+        const fallback = 'https://chart.googleapis.com/chart?cht=qr&chs=220x220&chl=' + encodeURIComponent(urlHero);
+        img.onerror = () => { img.onerror = null; img.src = fallback; };
+        img.src = primary;
+        qr.appendChild(img);
+      }
       const title = document.createElement('h1');
       title.className = 'title';
       title.textContent = card.avista;
