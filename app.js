@@ -1,9 +1,11 @@
 async function loadData() {
   try {
+    const noStore = { cache: 'no-store' };
+    const ts = Date.now();
     const [cardsRes, linksRes, orderRes] = await Promise.all([
-      fetch('cards.json'),
-      fetch('links.json'),
-      fetch('order.json')
+      fetch('cards.json?v=' + ts, noStore),
+      fetch('links.json?v=' + ts, noStore),
+      fetch('order.json?v=' + ts, noStore)
     ]);
     const cards = await cardsRes.json();
     const links = await linksRes.json();
@@ -77,12 +79,20 @@ async function loadData() {
         li.className = 'price-item';
         const span = document.createElement('span');
         span.textContent = it.label;
-        const btnOpen = document.createElement('button');
-        btnOpen.className = 'btn';
-        btnOpen.textContent = 'Abrir link';
-        btnOpen.setAttribute('data-card', card.id);
-        btnOpen.setAttribute('data-key', it.key);
-        btnOpen.setAttribute('data-action', 'open');
+        const aOpen = document.createElement('a');
+        aOpen.className = 'btn';
+        aOpen.textContent = 'Abrir link';
+        const lkey = headerToKey(card.header);
+        const hrefOpen = (links[lkey] && links[lkey][it.key]) || links[it.key];
+        if (hrefOpen) {
+          aOpen.href = hrefOpen;
+          aOpen.target = '_blank';
+          aOpen.rel = 'noopener noreferrer';
+        } else {
+          aOpen.href = '#';
+          aOpen.classList.add('disabled');
+          aOpen.setAttribute('aria-disabled', 'true');
+        }
         const btnQR = document.createElement('button');
         btnQR.className = 'btn';
         btnQR.textContent = 'QRCode';
@@ -90,7 +100,7 @@ async function loadData() {
         btnQR.setAttribute('data-key', it.key);
         btnQR.setAttribute('data-action', 'qr');
         li.appendChild(span);
-        li.appendChild(btnOpen);
+        li.appendChild(aOpen);
         li.appendChild(btnQR);
         ul.appendChild(li);
       });
@@ -145,6 +155,8 @@ async function loadData() {
         if (!url) { btn.disabled = true; return; }
         btn.addEventListener('click', () => showQR(url));
       });
+
+      // open links are anchors with href; no JS binding needed
     }
 
     // ensure modal closes when changing category/page

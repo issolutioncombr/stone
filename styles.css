@@ -79,6 +79,7 @@ body {
 }
 
 .btn:disabled { opacity: .6; cursor: not-allowed; }
+.btn.disabled { opacity: .6; pointer-events: none; }
 
 .btn + .btn { margin-left: 8px; }
 
