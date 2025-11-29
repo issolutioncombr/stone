@@ -1,0 +1,254 @@
+[
+  {
+    "id": "c1",
+    "header": "[Legado] [120k] [À vista]",
+    "avista": "À vista: R$ 120.000,00",
+    "subtitle": "Ou em até 12x de R$ 12.410,77",
+    "items": [
+      {"key":"avista","label":"À vista R$ 120.000,00"},
+      {"key":"1x","label":"1x R$ 120.000,00"},
+      {"key":"2x","label":"2x R$ 63.158,96"},
+      {"key":"3x","label":"3x R$ 42.823,92"},
+      {"key":"4x","label":"4x R$ 32.662,38"},
+      {"key":"5x","label":"5x R$ 26.570,24"},
+      {"key":"6x","label":"6x R$ 22.512,79"},
+      {"key":"7x","label":"7x R$ 19.618,02"},
+      {"key":"8x","label":"8x R$ 17.449,91"},
+      {"key":"9x","label":"9x R$ 15.766,25"},
+      {"key":"10x","label":"10x R$ 14.421,69"},
+      {"key":"11x","label":"11x R$ 13.323,75"},
+      {"key":"12x","label":"12x R$ 12.410,77"}
+    ]
+  },
+  {
+    "id": "c11",
+    "header": "[Aliança] [12 Meses] - 70K [50%]",
+    "avista": "À vista: R$ 35.000,00",
+    "subtitle": "Ou em até 12x de R$ 3.619,81",
+    "items": [
+      {"key":"avista","label":"À vista R$ 35.000,00"},
+      {"key":"1x","label":"1x R$ 35.000,00"},
+      {"key":"2x","label":"2x R$ 18.421,36"},
+      {"key":"3x","label":"3x R$ 12.490,31"},
+      {"key":"4x","label":"4x R$ 9.526,53"},
+      {"key":"5x","label":"5x R$ 7.749,63"},
+      {"key":"6x","label":"6x R$ 6.266,23"},
+      {"key":"7x","label":"7x R$ 5.721,92"},
+      {"key":"8x","label":"8x R$ 5.092,69"},
+      {"key":"9x","label":"9x R$ 4.598,49"},
+      {"key":"10x","label":"10x R$ 4.206,33"},
+      {"key":"11x","label":"11x R$ 3.886,09"},
+      {"key":"12x","label":"12x R$ 3.619,81"}
+    ]
+  },
+  {
+    "id": "c2",
+    "header": "[Legado] [12 Meses] -120k [70%]",
+    "avista": "À vista: R$ 84.000,00",
+    "subtitle": "Ou em até 12x de R$ 8.687,54",
+    "items": [
+      {"key":"avista","label":"À vista R$ 84.000,00"},
+      {"key":"1x","label":"1x R$ 84.000,00"},
+      {"key":"2x","label":"2x R$ 44.211,27"},
+      {"key":"3x","label":"3x R$ 29.976,74"},
+      {"key":"4x","label":"4x R$ 22.863,67"},
+      {"key":"5x","label":"5x R$ 18.599,17"},
+      {"key":"6x","label":"6x R$ 15.758,95"},
+      {"key":"7x","label":"7x R$ 13.723,61"},
+      {"key":"8x","label":"8x R$ 12.214,94"},
+      {"key":"9x","label":"9x R$ 11.036,38"},
+      {"key":"10x","label":"10x R$ 10.095,18"},
+      {"key":"11x","label":"11x R$ 9.326,63"},
+      {"key":"12x","label":"12x R$ 8.687,54"}
+    ]
+  },
+  {
+    "id": "c3",
+    "header": "[Legado] [12 Meses] -120k [50%]",
+    "avista": "À vista: R$ 60.000,00",
+    "subtitle": "Ou em até 12x de R$ 6.205,38",
+    "items": [
+      {"key":"avista","label":"À vista R$ 60.000,00"},
+      {"key":"1x","label":"1x R$ 60.000,00"},
+      {"key":"2x","label":"2x R$ 31.571,89"},
+      {"key":"3x","label":"3x R$ 21.419,46"},
+      {"key":"4x","label":"4x R$ 15.931,19"},
+      {"key":"5x","label":"5x R$ 13.285,12"},
+      {"key":"6x","label":"6x R$ 11.285,96"},
+      {"key":"7x","label":"7x R$ 9.891,04"},
+      {"key":"8x","label":"8x R$ 8.749,96"},
+      {"key":"9x","label":"9x R$ 7.883,13"},
+      {"key":"10x","label":"10x R$ 7.210,85"},
+      {"key":"11x","label":"11x R$ 6.661,88"},
+      {"key":"12x","label":"12x R$ 6.205,38"}
+    ]
+  },
+  {
+    "id": "c4",
+    "header": "[Legado] [12 Meses] -120k [30%]",
+    "avista": "À vista: R$ 36.000,00",
+    "subtitle": "Ou em até 12x de R$ 3.723,23",
+    "items": [
+      {"key":"avista","label":"À vista R$ 36.000,00"},
+      {"key":"1x","label":"1x R$ 36.000,00"},
+      {"key":"2x","label":"2x R$ 18.947,69"},
+      {"key":"3x","label":"3x R$ 12.847,18"},
+      {"key":"4x","label":"4x R$ 9.798,71"},
+      {"key":"5x","label":"5x R$ 7.971,07"},
+      {"key":"6x","label":"6x R$ 6.637,04"},
+      {"key":"7x","label":"7x R$ 5.885,40"},
+      {"key":"8x","label":"8x R$ 5.247,96"},
+      {"key":"9x","label":"9x R$ 4.729,38"},
+      {"key":"10x","label":"10x R$ 4.326,51"},
+      {"key":"11x","label":"11x R$ 3.997,13"},
+      {"key":"12x","label":"12x R$ 3.723,23"}
+    ]
+  },
+  {
+    "id": "c5",
+    "header": "[Aliança] [4 Meses] - 35K [100%]",
+    "avista": "À vista: R$ 35.000,00",
+    "subtitle": "Ou em até 12x de R$ 3.619,81",
+    "items": [
+      {"key":"avista","label":"À vista R$ 35.000,00"},
+      {"key":"1x","label":"1x R$ 35.000,00"},
+      {"key":"2x","label":"2x R$ 18.421,36"},
+      {"key":"3x","label":"3x R$ 12.490,31"},
+      {"key":"4x","label":"4x R$ 9.526,53"},
+      {"key":"5x","label":"5x R$ 7.749,63"},
+      {"key":"6x","label":"6x R$ 6.266,23"},
+      {"key":"7x","label":"7x R$ 5.721,92"},
+      {"key":"8x","label":"8x R$ 5.092,69"},
+      {"key":"9x","label":"9x R$ 4.598,49"},
+      {"key":"10x","label":"10x R$ 4.206,33"},
+      {"key":"11x","label":"11x R$ 3.886,09"},
+      {"key":"12x","label":"12x R$ 3.619,81"}
+    ]
+  },
+  {
+    "id": "c6",
+    "header": "[Aliança] [4 Meses] - 35K [70%]",
+    "avista": "À vista: R$ 24.500,00",
+    "subtitle": "Ou em até 12x de R$ 2.533,86",
+    "items": [
+      {"key":"avista","label":"À vista R$ 24.500,00"},
+      {"key":"1x","label":"1x R$ 24.500,00"},
+      {"key":"2x","label":"2x R$ 12.849,95"},
+      {"key":"3x","label":"3x R$ 8.743,22"},
+      {"key":"4x","label":"4x R$ 6.668,57"},
+      {"key":"5x","label":"5x R$ 5.642,76"},
+      {"key":"6x","label":"6x R$ 4.956,36"},
+      {"key":"7x","label":"7x R$ 4.005,34"},
+      {"key":"8x","label":"8x R$ 3.562,69"},
+      {"key":"9x","label":"9x R$ 3.219,84"},
+      {"key":"10x","label":"10x R$ 2.944,43"},
+      {"key":"11x","label":"11x R$ 2.720,27"},
+      {"key":"12x","label":"12x R$ 2.533,86"}
+    ]
+  },
+  {
+    "id": "c7",
+    "header": "[Aliança] [4 Meses] - 35K [50%]",
+    "avista": "À vista: R$ 17.500,00",
+    "subtitle": "Ou em até 12x de R$ 1.809,90",
+    "items": [
+      {"key":"avista","label":"À vista R$ 17.500,00"},
+      {"key":"1x","label":"1x R$ 17.500,00"},
+      {"key":"2x","label":"2x R$ 9.210,68"},
+      {"key":"3x","label":"3x R$ 6.245,66"},
+      {"key":"4x","label":"4x R$ 4.763,26"},
+      {"key":"5x","label":"5x R$ 3.874,83"},
+      {"key":"6x","label":"6x R$ 3.263,11"},
+      {"key":"7x","label":"7x R$ 2.860,96"},
+      {"key":"8x","label":"8x R$ 2.544,78"},
+      {"key":"9x","label":"9x R$ 2.329,56"},
+      {"key":"10x","label":"10x R$ 2.103,15"},
+      {"key":"11x","label":"11x R$ 1.949,03"},
+      {"key":"12x","label":"12x R$ 1.809,90"}
+    ]
+  },
+  {
+    "id": "c8",
+    "header": "[Aliança] [4 Meses] - 35K [30%]",
+    "avista": "À vista: R$ 10.500,00",
+    "subtitle": "Ou em até 12x de R$ 1.085,94",
+    "items": [
+      {"key":"avista","label":"À vista R$ 10.500,00"},
+      {"key":"1x","label":"1x R$ 10.500,00"},
+      {"key":"2x","label":"2x R$ 5.526,41"},
+      {"key":"3x","label":"3x R$ 3.747,09"},
+      {"key":"4x","label":"4x R$ 2.587,96"},
+      {"key":"5x","label":"5x R$ 2.324,90"},
+      {"key":"6x","label":"6x R$ 1.969,87"},
+      {"key":"7x","label":"7x R$ 1.716,58"},
+      {"key":"8x","label":"8x R$ 1.526,87"},
+      {"key":"9x","label":"9x R$ 1.379,55"},
+      {"key":"10x","label":"10x R$ 1.261,90"},
+      {"key":"11x","label":"11x R$ 1.165,83"},
+      {"key":"12x","label":"12x R$ 1.085,94"}
+    ]
+  },
+  {
+    "id": "c9",
+    "header": "[Aliança] [12 Meses] - 70K [100%]",
+    "avista": "À vista: R$ 70.000,00",
+    "subtitle": "Ou em até 12x de R$ 7.239,61",
+    "items": [
+      {"key":"avista","label":"À vista R$ 70.000,00"},
+      {"key":"1x","label":"1x R$ 70.000,00"},
+      {"key":"2x","label":"2x R$ 36.842,72"},
+      {"key":"3x","label":"3x R$ 24.980,62"},
+      {"key":"4x","label":"4x R$ 19.050,56"},
+      {"key":"5x","label":"5x R$ 15.499,31"},
+      {"key":"6x","label":"6x R$ 13.142,36"},
+      {"key":"7x","label":"7x R$ 11.443,84"},
+      {"key":"8x","label":"8x R$ 10.179,12"},
+      {"key":"9x","label":"9x R$ 9.196,98"},
+      {"key":"10x","label":"10x R$ 8.412,65"},
+      {"key":"11x","label":"11x R$ 7.772,19"},
+      {"key":"12x","label":"12x R$ 7.239,61"}
+    ]
+  },
+  {
+    "id": "c10",
+    "header": "[Aliança] [12 Meses] - 70K [70%]",
+    "avista": "À vista: R$ 49.000,00",
+    "subtitle": "Ou em até 12x de R$ 5.067,73",
+    "items": [
+      {"key":"avista","label":"À vista R$ 49.000,00"},
+      {"key":"1x","label":"1x R$ 49.000,00"},
+      {"key":"2x","label":"2x R$ 25.789,91"},
+      {"key":"3x","label":"3x R$ 17.486,43"},
+      {"key":"4x","label":"4x R$ 13.317,44"},
+      {"key":"5x","label":"5x R$ 10.849,51"},
+      {"key":"6x","label":"6x R$ 9.192,72"},
+      {"key":"7x","label":"7x R$ 8.010,69"},
+      {"key":"8x","label":"8x R$ 7.125,38"},
+      {"key":"9x","label":"9x R$ 6.437,89"},
+      {"key":"10x","label":"10x R$ 5.848,86"},
+      {"key":"11x","label":"11x R$ 5.440,53"},
+      {"key":"12x","label":"12x R$ 5.067,73"}
+    ]
+  },
+  {
+    "id": "c12",
+    "header": "[Aliança] [12 Meses] - 70K [30%]",
+    "avista": "À vista: R$ 21.000,00",
+    "subtitle": "Ou em até 12x de R$ 2.171,88",
+    "items": [
+      {"key":"avista","label":"À vista R$ 21.000,00"},
+      {"key":"1x","label":"1x R$ 21.000,00"},
+      {"key":"2x","label":"2x R$ 11.052,82"},
+      {"key":"3x","label":"3x R$ 7.494,19"},
+      {"key":"4x","label":"4x R$ 5.715,92"},
+      {"key":"5x","label":"5x R$ 4.649,79"},
+      {"key":"6x","label":"6x R$ 3.939,74"},
+      {"key":"7x","label":"7x R$ 3.433,15"},
+      {"key":"8x","label":"8x R$ 3.052,73"},
+      {"key":"9x","label":"9x R$ 2.759,09"},
+      {"key":"10x","label":"10x R$ 2.528,80"},
+      {"key":"11x","label":"11x R$ 2.331,66"},
+      {"key":"12x","label":"12x R$ 2.171,88"}
+    ]
+  }
+]
