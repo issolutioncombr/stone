@@ -16,6 +16,13 @@ async function loadData() {
     const openAnchor = document.getElementById('qr-open-link');
     const closeEl = document.getElementById('qr-close');
 
+    function headerToKey(header) {
+      return String(header || '')
+        .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g, '');
+    }
+
     function showQR(url) {
       const primary = 'https://api.qrserver.com/v1/create-qr-code/?size=220x220&data=' + encodeURIComponent(url);
       const fallback = 'https://chart.googleapis.com/chart?cht=qr&chs=220x220&chl=' + encodeURIComponent(url);
@@ -39,7 +46,8 @@ async function loadData() {
       head.textContent = card.header;
       const qr = document.createElement('div');
       qr.className = 'qr';
-      const urlHero = (links[card.id] && (links[card.id]['1x'] || links[card.id]['avista'])) || null;
+      const lkey = headerToKey(card.header);
+      const urlHero = (links[lkey] && (links[lkey]['1x'] || links[lkey]['avista'])) || null;
       if (urlHero) {
         const img = document.createElement('img');
         const primary = 'https://api.qrserver.com/v1/create-qr-code/?size=220x220&data=' + encodeURIComponent(urlHero);
@@ -131,7 +139,9 @@ async function loadData() {
       buttonsQR.forEach(btn => {
         const cid = btn.getAttribute('data-card');
         const key = btn.getAttribute('data-key');
-        const url = (links[cid] && links[cid][key]) || links[key];
+        const cardObj = byId[cid];
+        const lkey = headerToKey(cardObj && cardObj.header);
+        const url = (links[lkey] && links[lkey][key]) || links[key];
         if (!url) { btn.disabled = true; return; }
         btn.addEventListener('click', () => showQR(url));
       });
