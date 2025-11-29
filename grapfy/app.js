@@ -77,8 +77,21 @@ async function loadData() {
       card.items.forEach(it => {
         const li = document.createElement('li');
         li.className = 'price-item';
-        const span = document.createElement('span');
-        span.textContent = it.label;
+        const text = document.createElement('div');
+        text.className = 'price-text';
+        const parts = String(it.label).split('=');
+        const installmentText = parts[0] ? parts[0].trim() : String(it.label);
+        const totalRaw = parts[1] ? parts[1].trim() : '';
+        const line1 = document.createElement('div');
+        line1.className = 'installment';
+        line1.textContent = installmentText;
+        text.appendChild(line1);
+        if (totalRaw) {
+          const line2 = document.createElement('div');
+          line2.className = 'total';
+          line2.textContent = 'Total Maquininha: ' + totalRaw;
+          text.appendChild(line2);
+        }
         const aOpen = document.createElement('a');
         aOpen.className = 'btn';
         aOpen.textContent = 'Abrir link';
@@ -99,7 +112,7 @@ async function loadData() {
         btnQR.setAttribute('data-card', card.id);
         btnQR.setAttribute('data-key', it.key);
         btnQR.setAttribute('data-action', 'qr');
-        li.appendChild(span);
+        li.appendChild(text);
         li.appendChild(aOpen);
         li.appendChild(btnQR);
         ul.appendChild(li);
